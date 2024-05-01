@@ -1,14 +1,14 @@
 # RetroArch Perfect Overlays for 640x480 Handhelds
 
-:warning: Work In Progress :warning:
-
 ## Preface
 
 Some familiarity with RetroArch is beneficial. I have tried my best to lay everything out step by step, but I hope you can fill in the gaps if I forget something.
 
 These overlays are derived from the work of [1playerinsertcoin](https://www.reddit.com/user/1playerinsertcoin/submitted/), with bezels added from [mugwomp_93](https://www.reddit.com/r/RG35XX/comments/1ai93ee/perfect_overlays_adapted_for_rg35xx/) and [drkhrse](https://github.com/drkhrse/drkhrse_miyoo_bezels).
 
-These overlays have been adjusted and tested to fit Miyoo Mini (v1, v2, v3), Miyoo Mini Plus, Retroid Pocket 2S, and RG405M. For the Miyoo Mini/Plus, OnionUI outputs GB/GBC 2 pixels left of center. Therefore, you will need to download specific overlays in the `miyoo` folder for these systems. Otherwise, the overlays should theoretically fit other 640x480 displays with standard RetroArch build, but use at your own risks.
+These overlays have been adjusted and tested to fit Miyoo Mini v1/v2/v3/Plus, Retroid Pocket 2S, and RG405M. For the Miyoo Mini/Plus, OnionUI outputs GB/GBC 2 pixels left of center. Therefore, you will need to download specific overlays in the `miyoo` folder for these systems.
+
+These overlays should theoretically fit other 640x480 displays with standard RetroArch build, but they've not been tested.
 
 ## Preview
 
@@ -17,29 +17,34 @@ These overlays have been adjusted and tested to fit Miyoo Mini (v1, v2, v3), Miy
 | ![](preview/CRT.png) | ![](preview/CRT-240p.png) | 
 
 
-| Perfect_DMG-EX (mugwomp_93 bezel)                    | Perfect_DMG-EX (drkhrse bezel)                      | 
-| ----------------------------------- | ----------------------------------- |
-| ![](preview/DMG-mugwomp93.png) | ![](preview/DMG-drkhrse.png) | 
+| Perfect_DMG-EX (mugwomp_93)                    | Perfect_DMG-EX (drkhrse)                      |
+| ----------------------------------- | ----------------------------------- | 
+| ![](preview/DMG-mugwomp93.png) | ![](preview/DMG-drkhrse.png) |
 
-| Perfect_GBC (mugwomp_93 bezel)                    | Perfect_GBC (drkhrse bezel)                      | 
-| ----------------------------------- | ----------------------------------- |
+| Perfect_GBP-EX (mugwomp_93)                    | Perfect_GBP-EX (drkhrse)                      | 
+|----------------------------------- | ----------------------------------- |
+| ![](preview/GBP-mugwomp93.png) | ![](preview/GBP-drkhrse.png) | 
+
+| Perfect_GBC (mugwomp_93)                    | Perfect_GBC (drkhrse)                      |  
+| ----------------------------------- | ----------------------------------- | 
 | ![](preview/GBC-mugwomp93.png) | ![](preview/GBC-drkhrse.png) | 
 
-| Perfect_GBA (mugwomp_93 bezel)                    | Perfect_GBA (drkhrse bezel)                      | 
-| ----------------------------------- | ----------------------------------- |
-| ![](preview/GBA-mugwomp93.png) | ![](preview/GBA-drkhrse.png) | 
-
+|Perfect_GBA (mugwomp_93)                    | Perfect_GBA (drkhrse)                      |
+|----------------------------------- | ----------------------------------- |
+| ![](preview/GBA-mugwomp93.png) | ![](preview/GBA-drkhrse.png) |
 
 
 ## Installation
 
-On Android RetroArch installations, save the files to `/data/user/0/com.retroarch/overlays` (default), or your custom `overlay` folder.
+Pick which version of the overlays you want, e.g. `drkhrse` or `mugwomp93`. Save both the `.png` and its `.cfg` to a `perfect_overlays` folder.
+
+On Android RetroArch installations, transfer the folder to `/data/user/0/com.retroarch/overlays` (default), or set your custom location.
 
 * To find the default location, go to Android file manager, swipe from left side of screen, scroll to the bottom of the pullout menu, and click on `RetroArch` 
 
-On OnionUI for Miyoo Mini, save the files to `RetroArch/.retroarch/overlays`
+On OnionUI for Miyoo Mini, transfer the folder to `RetroArch/.retroarch/overlays`
 
-While in game, go to RetroArch Quick Menu by your hotkey, then choose On-Screen Overlay > Display Overlay ON > scroll to Overlay Preset, and find the appropriate overlay
+On your device, start a game, then access RetroArch Quick Menu by your hotkey, then choose On-Screen Overlay > Display Overlay ON > scroll to Overlay Preset, and find the appropriate overlay
 
 Next, ensure the following settings:
 * Overlay Opacity > 1.00
