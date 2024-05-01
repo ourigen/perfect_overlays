@@ -94,7 +94,7 @@ Shaders:
 
 ### GBC
 
-Core Options:
+Core Options: (Gambatte)
 * GB Colorization > GBC
 * Color Correction > GBC Only
 * Color Correction - Frontlight > Above Screen
@@ -104,11 +104,6 @@ Core Options:
 Settings > Video:
 * Integer Scale > OFF
 * Aspect Ratio > Core Provided
-
-Core Options: (Gambatte)
-* GB Colorization > GBC
-* Color Correction > GBC Only
-* Color Correction - Frontlight > Above Screen
 
 Also for standard RetroArch builds, set:
 
