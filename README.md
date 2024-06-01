@@ -12,26 +12,26 @@ These overlays should theoretically fit other 640x480 displays with standard Ret
 
 ## Preview
 
-| Perfect_CRT                  | Perfect_CRT-240p                      | 
-| ----------------------------------- | ----------------------------------- |
-| ![](preview/CRT.png) | ![](preview/CRT-240p.png) | 
+| Perfect_CRT | Perfect_CRT-240p | Raw |
+| -- | -- | -- |
+| ![](preview/console-CRT.png) | ![](preview/console-CRT-240p.png) |  ![](preview/console-raw.png) |
 
 
-| Perfect_DMG-EX (mugwomp_93)                    | Perfect_DMG-EX (drkhrse)                      |
-| ----------------------------------- | ----------------------------------- | 
-| ![](preview/DMG-mugwomp93.png) | ![](preview/DMG-drkhrse.png) |
+| Perfect_DMG-EX (mugwomp) | Perfect_DMG-EX (drkhrse) | Raw |
+| -- | -- | -- |
+| ![](preview/GB_DMG-mugwomp.png) | ![](preview/GB_DMG-drkhrse.png) | ![](preview/GB-raw.png) |
 
-| Perfect_GBP-EX (mugwomp_93)                    | Perfect_GBP-EX (drkhrse)                      | 
-|----------------------------------- | ----------------------------------- |
-| ![](preview/GBP-mugwomp93.png) | ![](preview/GBP-drkhrse.png) | 
+| Perfect_GBP-EX (mugwomp) | Perfect_GBP-EX (drkhrse) | Raw |
+|-- | -- | -- |
+| ![](preview/GB_GBP-mugwomp.png) | ![](preview/GB_GBP-drkhrse.png) | ![](preview/GB-raw.png) |
 
-| Perfect_GBC (mugwomp_93)                    | Perfect_GBC (drkhrse)                      |  
-| ----------------------------------- | ----------------------------------- | 
-| ![](preview/GBC-mugwomp93.png) | ![](preview/GBC-drkhrse.png) | 
+| Perfect_GBC (mugwomp)| Perfect_GBC (drkhrse)|Raw|
+| -- | --| --|
+| ![](preview/GBC-mugwomp.png) | ![](preview/GBC-drkhrse.png) | ![](preview/GBC-raw.png)|
 
-|Perfect_GBA (mugwomp_93)                    | Perfect_GBA (drkhrse)                      |
-|----------------------------------- | ----------------------------------- |
-| ![](preview/GBA-mugwomp93.png) | ![](preview/GBA-drkhrse.png) |
+|Perfect_GBA (mugwomp)| Perfect_GBA (drkhrse)| Raw |
+|-- | -- | -- |
+| ![](preview/GBA-mugwomp.png) | ![](preview/GBA-drkhrse.png) | ![](preview/GBA-raw.png) |
 
 
 ## Installation
