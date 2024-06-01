@@ -38,6 +38,8 @@ These overlays should theoretically fit other 640x480 displays with standard Ret
 
 Pick which version of the overlays you want, e.g. `drkhrse` or `mugwomp93`. Save both the `.png` and its `.cfg` to a `perfect_overlays` folder. For the Miyoo Mini/Plus on OnionUI, download the GB and GBC overlays specifically from the `miyoo` folder.
 
+For the RG35XX-SP, you now also have the default GBA SP overlays seen in all promotional video with Perfect_GBA grid added. Find this in the `misc` folder. Thanks to [u/N4riN4ri](https://www.reddit.com/r/SBCGaming/comments/1czpgwt/those_who_have_received_the_rg35xxsp_could_you/l5kop9g/)!
+
 On Android RetroArch installations, transfer the folder to `/data/user/0/com.retroarch/overlays` (default), or set your custom location.
 
 * To find the default location, go to Android file manager, swipe from left side of screen, scroll to the bottom of the pullout menu, and click on `RetroArch` 
