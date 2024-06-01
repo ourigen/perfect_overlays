@@ -36,7 +36,7 @@ These overlays should theoretically fit other 640x480 displays with standard Ret
 
 ## Installation
 
-Pick which version of the overlays you want, e.g. `drkhrse` or `mugwomp93`. Save both the `.png` and its `.cfg` to a `perfect_overlays` folder.
+Pick which version of the overlays you want, e.g. `drkhrse` or `mugwomp93`. Save both the `.png` and its `.cfg` to a `perfect_overlays` folder. For the Miyoo Mini/Plus on OnionUI, download the GB and GBC overlays specifically from the `miyoo` folder.
 
 On Android RetroArch installations, transfer the folder to `/data/user/0/com.retroarch/overlays` (default), or set your custom location.
 
@@ -75,7 +75,9 @@ For SNES and NES, by default 8 pixels of overscan is cropped. This results in no
 
 ### GB/DMG
 
-Make a `palettes` folder in your `BIOS` directory and copy ONE `default.pal` (either `DMG` or `GBP`)  into `BIOS/palettes`
+Make a `palettes` folder in your `BIOS` directory and copy ONE `default.pal` (either `DMG` or `GBP`)  into `BIOS/palettes`.
+
+Alternatively, for GBP I found that the shader `handheld > gb-palette-pocket` gives a more muted look. Turn GB Colorization OFF if using this shader.
 
 Core Options: (Gambatte)
 * GB Colorization > Custom
@@ -90,7 +92,8 @@ Settings > Video:
 Also for standard RetroArch builds, set:
 
 Shaders:
-* Vulkan: shaders_slang > interpolation > quilez.slangp (vulkan) OR sharp-bilinear-2x-prescale.glsl (gl)
+* shaders_slang > interpolation > sharp-bilinear-2x-prescale.glsl
+* Alternatively, use the sharp-shimmerless shader from [Woohyun-Kang/Sharp-Shimmerless-Shader](https://github.com/Woohyun-Kang/Sharp-Shimmerless-Shader)
 
 ### GBC
 
@@ -108,7 +111,8 @@ Settings > Video:
 Also for standard RetroArch builds, set:
 
 Shaders:
-* shaders_slang > interpolation > quilez.slangp (vulkan) OR sharp-bilinear-2x-prescale.glsl (gl)
+* shaders_slang > interpolation > sharp-bilinear-2x-prescale.glsl
+* Alternatively, use the sharp-shimmerless shader from [Woohyun-Kang/Sharp-Shimmerless-Shader](https://github.com/Woohyun-Kang/Sharp-Shimmerless-Shader)
 
 ### GBA
 
@@ -130,7 +134,8 @@ Core Options: (mGBA)
 Also for standard RetroArch builds, set:
 
 Shaders:
-* shaders_slang > interpolation > quilez.slangp (vulkan) OR sharp-bilinear-2x-prescale.glsl (gl)
+* shaders_slang > interpolation > sharp-bilinear-2x-prescale.glsl
+* Alternatively, use the sharp-shimmerless shader from [Woohyun-Kang/Sharp-Shimmerless-Shader](https://github.com/Woohyun-Kang/Sharp-Shimmerless-Shader)
 
 Credits:
 - [1playerinsertcoin](https://www.reddit.com/user/1playerinsertcoin/submitted/)
